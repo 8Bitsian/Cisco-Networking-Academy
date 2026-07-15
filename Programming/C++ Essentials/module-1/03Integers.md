@@ -4,7 +4,7 @@ Computers use the binary system to store numbers and perform operations on them.
 
 There are two types of numbers handled by modern computers:
 1. **Integers**, which are real numbers devoid of fractional parts
-2. **Floating-point** (floats) numbers are real numbers that contain a fractional part
+2. **Floating-point** (**floats**) numbers are real numbers that contain a fractional part
 
 Both these kinds of numbers differ in how that are stored in computer memory and in the range of acceptable values. Additionally, the characteristic of a number which determines its kind, range and application is called a **data type**. An integer type is represented by the keyword `int` and the floating-point type is represented by the keyword `float`.
 
@@ -15,7 +15,24 @@ The second allows us to use hexadecimal numbers. If an integer number is precede
 - Ex. `0x123` is a hexadecimal number with a decimal value equal to _291_.
 
 ## 3.0.2 A variable is variable
-Paragraph
+The C++ language allows special containers called variables. Every variable has a name, type, and value.
+
+When naming vairables, you must adhere to the following syntax:
+- The name of the variable must be composed of uppercase (A-Z), lowercase (a-z), digits (0-9) and characters (_-)
+- The name of the variable must begin with a character or letter
+- The name of variables are case sensitive, so upper- and lowercase letters are treated differently
+
+The same naming restrcitions apply to all entity names used in C++.
+
+The **type** is an attribute that uniquely defines which values can be stored inside the variable. You can only enter a value that is compatible with the variable's type.
+
+You can make a variable through a **variable declaration** which is a syntactic structure that binds a name by the programmer with a specific type offered by the C++ langauge. The **declaration syntax** is simple: Use the name of the desired type, then the variable name (or variable names separated by commas if there are more than one), and then end the statement with a semicolon.
+
+Ex. `int varible_1, variable_2;`
+
+You can give a value to the newly declared variable via the **assignment operator**.
+
+Ex. `int varible_3 = 1 + 2,;`
 
 ## 3.0.3 Understanding keywords
 **Reserved keywords** are a list of words that are predefined and cannot be used as names for other entities such as variables nor functions. Fortunatley, because th C++ compiler is case-sensitive, you can modify any of these words by changing the case of any letter, thus creating a new word, which is not reserved.
