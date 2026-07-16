@@ -45,25 +45,32 @@ In subtracting application, the subtractor operator `-` expects two arguments: T
 The same dual nature is expressed by the addition operator `+`, which can also be used as a unary operator whose role is to preseve the sign - to make the value positive.
 
 ### 4.2.6 Remainder
-Paragraph
+A percent sign `%` is the **remainder operator**, which has no equivalent among traditional arithmetic operators. It is a bianry operator which performs the **modulo operation** where both arguments cannot be floats. You also cannot computer the remainder with the right argument equal to zero because division by zero provokes undefined behavior.
 
 ### 4.3 Priorities
-Paragraph
+In programming you'll find more than one operator in an expression and which some precede one another. The phenomenon that causes some operators to act before others is known as the heirarerchy of priorities. The C++ langauge precisely defines the priorities of all operators and assumes that operators of larger (higher) priority perform their operations before the operators with lower priority.
 
 ### 4.4 Bindings
-Paragraph
+The **binding** of the operator determines the order of computations performed by some operators with equal priority, put side by side in an expression. Most operators in the C++ langauge have the **left-sided binding** which means that the calculation is conducted left to right.
 
 ### 4.5 Priority Table
-Paragraph
+We've currently gone through operators in order from highest to lowest priority. Both operators (`*` and `%`) have the same prioority, so the result is determined by the binding direction.
+
+| Operators | Sign |
+|:---:|:---:|
+|++ -- + -| Unary |
+|* / % | x |
+| + - | Binary |
+| = | x |
 
 ## 4.6 Parentheses
-Paragraph
+Just like with arithmetic rules, subexpression in **parentheses** `()` are calculated first, which can change the natural order of calculation. You can use as many parentheses are you need and we often use them for the readability of an expresion, even if they don't change the order of operations.
 
 ## 4.7 Increment & Decrement Operators
-Paragraph
+Some operators are frequently used to increment a variable by one. You can either add the 1 like this: `counter = x + 1;`, or you can use the **increment operator** `++` like this: `counter++;` Similarly you can also decrease the value of the chosen variable by one using the **decrement operator** `--` like this: `counter--;`.
 
 ## 4.8 Pre- and post-operators and their priorities
-Paragraph
+Increment and decrement operators behavior justify the precense of the prescence of the prefix pre- (before) and post- (after) in the operators' names: _pre-_ because the varioable is modified first and then its value is used; and _post-_ because the varible's value is used and then modified.
 
 ## 4.9 Shortcut Operators
-Paragraph
+If `op` is a **two-argument operator** (a very important condition) and the operator is used in the followwing context: `variable = variable op expression;`, then the expression can be simiplified as follows: `variable op = expression;`
