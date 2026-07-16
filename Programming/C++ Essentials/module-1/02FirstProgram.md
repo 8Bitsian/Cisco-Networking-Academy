@@ -1,5 +1,5 @@
 # 2.0 Beginning the Coding Adventure: Your First Program
-## 2.0.1 Writing Your First Program
+## 2.1 Writing Your First Program
 First, define your expectations for the program. This type of structured and semi-formal description of each step of the program is called an **algorithm**.
 
 ```txt
