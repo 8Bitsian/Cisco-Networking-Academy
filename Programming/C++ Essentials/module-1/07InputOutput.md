@@ -1,5 +1,5 @@
-# 6.0 Connetcing with the Real World: Input and Output in C++
-## 6.0.1 Input and Output
+# 7.0 Connecting with the Real World: Input and Output in C++
+## 7.1 Input and Output
 Paragraph
 
 ```txt
@@ -14,8 +14,8 @@ int main(void) {
 
 `snippet`
 
-## 6.0.2 Output
+## 7.2 Output
 Paragraph
 
-## 6.0.3 Input
+## 7.3 Input
 Paragraph
