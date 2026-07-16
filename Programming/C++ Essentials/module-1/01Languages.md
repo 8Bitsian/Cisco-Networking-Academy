@@ -1,15 +1,15 @@
 # 1.0 Different Languages for Different Purposes
-## 1.0.1 Natural Languages v. Programming Languages
+## 1.1 Natural Languages v. Programming Languages
 Language is a tool for expressing and recording human thoughts. We use language for speaking, writing, reading, listening, amnd thinking. At least one languge accompanies us throughout our lives - it's our native language. The languages we use to communicate with other people are called **natural langauges**. Their development is almost independent of their speakers and evolves naturally, in a way that gives little to no control over it.
 
 However, there are langauges whose creation and development were (and often continute to be) dictated by some specific needs, and whose development is fully subject to control by very wide groups of people like international committees or work groups. Such languages are, among others, **programming langauges**. A programming language is defined by a certain set of rigid rules, much more inflexible than any natural language. This part of the definition of language is called **lexicon**. Another set of rules determines the appropriate ways of collating the symbols - this is the **syntax** of the language. We also need to be able to recognize the meaning of every statement expressed in the given language, and this is what we call **semantics**. Any program we write must be error-free in these three ways: lexically, syntactically and semantically, otherwise, the program won’t run, or it will produce unacceptable results.
 
-### Machine Language
+### 1.1.1 Machine Language
 A computer, even the most technically sophisticated one, us deviod of even a trace of intelligence. It only responds to a predetermined set of known commands. A complete set of well-known commands is called an **instruction list** (**IL**). different types of computers may vary depending on the size of thier ILs and the instructions can be different depending on the model. The IL is an alphabet commonly knwon as **machine language**. This is the simplest and most primary language we can use to give commands to our computer.
 
 Programming in machine language is tedious, time-consuming, and highly susceptible to a programmer's mistakes. Also, it is very difficult to understand for humans, including experienced programmers. All these circumstances lead to a need for a bridge between natural language and machine language - which is often called a **high-level programming language**. A language like this is somewhat similar to a natural language: it uses symbols, words, and conventions readable to humans. The programs written in high-level languages can be translated into any number of different machine langauges, and thus enables them to be used on many different computers. This is called **portability**.
 
-### Compilation
+### 1.1.2 Compilation
 The translation is made by a specialized program called a compiler. The process of translating from a high-level language into a machine language is called compilation.
 
 The main task when writeing a program is to be in accordance with the rules of the chosen programming language. Such a program (which is just text) is called the **source code**, or just **source**, while the file which contains the source is called the **source file**. To write source code, you will need a text editor that allows you to manipulate text without any formatting information. In the C++ langauge, it's common for the file contianing the soruce code to have a name ending with suffic .cpp.
