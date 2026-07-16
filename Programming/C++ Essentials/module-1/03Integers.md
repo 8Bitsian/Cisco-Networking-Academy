@@ -1,5 +1,5 @@
 # 3.0 The Basics of Integers and Variables
-## 3.0.1 Numbers and how computers see them
+## 3.1 Numbers and how computers see them
 Computers use the binary system to store numbers and perform operations on them.
 
 There are two types of numbers handled by modern computers:
@@ -14,7 +14,7 @@ There are two additional conventions, the first of which allows us to use the nu
 The second allows us to use hexadecimal numbers. If an integer number is preceded by 0x or 0X, it will be treated as an hexadecimal value.
 - Ex. `0x123` is a hexadecimal number with a decimal value equal to _291_.
 
-## 3.0.2 A variable is variable
+## 3.2 A variable is variable
 The C++ language allows special containers called variables. Every variable has a name, type, and value.
 
 When naming vairables, you must adhere to the following syntax:
@@ -34,7 +34,7 @@ You can give a value to the newly declared variable via the **assignment operato
 
 Ex. `int varible_3 = 1 + 2,;`
 
-## 3.0.3 Understanding keywords
+## 3.3 Understanding keywords
 **Reserved keywords** are a list of words that are predefined and cannot be used as names for other entities such as variables nor functions. Fortunatley, because th C++ compiler is case-sensitive, you can modify any of these words by changing the case of any letter, thus creating a new word, which is not reserved.
 
 | Keywords | | | | | |
@@ -46,7 +46,7 @@ Ex. `int varible_3 = 1 + 2,;`
 | switch | throw | try | typeid | union | unsigned |
 | virtual | void | volatile | wchar_t | xor | xor_eq |
 
-## 3.0.4 Comments on comments
+## 3.4 Comments on comments
 Comments are a way for developers to add a few words addressed not the compiler, but to other humans to explain to readers how the code functions. Each comment is lexically equivalent to one space. Whenver the compiler encounters a comment in your program, the comment is completely transparent to it - form its point of view its only one space (regardless of how long the actual comment is).
 
 The C++ langauge supports two ways of inserting comments:
