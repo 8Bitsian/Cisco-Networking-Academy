@@ -1,4 +1,4 @@
-# Introduction to Programming and Basics of C++
+# CPPE1 Module 1: Introduction to Programming and Basics of C++
 1. Different Languages for Different Purposes
 2. Beginning the Coding Adventure: Your First Program
 3. The Basics of Integers and Variables
