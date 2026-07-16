@@ -47,7 +47,19 @@ It is a binary operator with a left-side binding. It need two arguments and chec
 
 EX. `counter <= 4;`
 
-## 6.3 How to use the answers we got?
+## 6.3 Update the Priority Table
+Now we can update our priority table.
+
+| Operators | Sign |
+|:---:|:---:|
+| ++ -- + -| Unary |
+| * / % | x |
+| + - | Binary |
+| < <= > >= | x |
+| == != | x |
+| = += -= *= /= %= | x |
+
+## 6.4 How to use the answers we got?
 There are two ways we can use the answers we get from our questions:
 1. We can store the answers in variables for later use. If the answer is `true`, the computer will assign `1` (which is arguably different from zero). If the answer is `false`, the computer will asign `0`.
 2. We can use the answer to make a decision using special mechniasm which allows us to do something if a condition is met.
@@ -64,7 +76,3 @@ How does the statement work?
 - If the `condition_true_or_false` expression enclosed inside the parentheses represents a falsehood (i.e., it's value is zero), the statement behind this condition is omitted and the next executable instruction will be the one that lies after the conditional statement
 
 There may only be one statement after the `if` statement. When we have to conditonally execute more than one instruction we need to use braces `{}` which creates a structure called a **compound statement** or **block**. The block is treated as a single instruction by the compiler. Thsi is how to circumvent the `if` statement limitation.
-
-## 6.4 Update the Priority Table
-Now we can update our priority table.
-
