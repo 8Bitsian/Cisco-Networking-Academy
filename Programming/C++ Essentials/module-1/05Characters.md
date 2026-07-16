@@ -45,16 +45,31 @@ The universal and widely accepted standard implemented by (almost) all computers
 |(US)  |31   |1F   |?     |63   |3F   |_     |95   |5F   |      |127  |7F   |
 
 ## 5.3 Character Type Values
-Paragraph
+We can use the `char` type in two ways in the C++ langauge:
+1. We can specify the character itself with single quotes or apostrophes `''`
+2. We can assigned non-negative integer values that correpsonds to the code of the desired character
 
-## 5.4 ASCII v EBCDIC
-Paragraph
+EX. `character = 'A';` and `character = 65;` both assign captial A to the variable `character`.
 
-## 5.5 Literal
-Paragraph
+The second solution is not recommended. however, since there are other computers that use codes other than ASCII. For example, many IBM mainframes use code called **Extended Binary Coded Decimal Interchange Code** or **EBCDIC**.
 
-## 5.6 Escape Characters
-Paragraph
+## 5.4 Literal
+A **literal** is a symbol which uniquely identifies its value, or to put it plainly, the literal means itself.
 
-## 5.7 `char` Values are `int` Values
+Look at the following examples:
+- `A` is a literal as when you look at it you can immediately guess its value; You can even know that it's a literal of the `char` type
+- `100` is a literal of the `int` type
+- `100.0` is a literal of the `float` type
+- `i + 100` is a combination of a variable and a literal joined with the `+` operator; This structure is called an **expression**.
+
+## 5.5 Escape Characters
+The **escape character** `\` is a special convention by the C++ langauge that allows us to escape from the normal meaning of a character that follows the backslash - i.e., we can escape from the usual role of the character.
+
+The C++ langauge allows us to escape other circumstaces too. We can start with literals denoting whitespace:
+- `\n` denotes a transition to a new line and is sometimes called an **Line Feed** (**LF**), as printers react to this character by pulling out the paper by one line of text
+- `\r` denotes the return to the beginning of the line and is sometimes called a **Carriage Return** (**CR**) - "carrriage" being the synonym of a "print head" in the typewriter era
+- `\a` (as in **alarm**) references when teletypes were often used to communicate with computers; sending this character to a teletype turns on its ringer; hence, the character is officially called **BEL** (as in **bell**). IF you try to send this character to the console, you'll hear a short beep
+- `\0` denotes the a character that doens't represent any character and is called **nul** from the latin word **nullus**
+
+## 5.6 `char` Values are `int` Values
 Paragraph
