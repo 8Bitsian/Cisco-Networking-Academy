@@ -1,4 +1,4 @@
-# C++ Essentials Modules for the CPE and CPA
+# C++ Essentials Modules for the CPE and CPA Exams
 The following modules prepare you for both the [Certified Entry-Level Programmer (CPE)](https://cppinstitute.org/cpe) and [Certified Associate Programmer (CPA)](https://cppinstitute.org/cpa) exams. You can also study for these exams by taking free courses available through the [Cisco Networking Academy](https://www.netacad.com/) website.
 
 ## C++ Essentials 1 - CPE (Certified Entry-Level)
